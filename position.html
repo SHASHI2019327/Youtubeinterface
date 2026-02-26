@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position practise</title>
+        <style>
+            .modal
+            {
+                box-shadow: 0 0 5px rgba(0,0,0,0.3);
+                background-color: white;
+                color: black;
+                font-family: Roboto,arial;
+                width: 300px;
+                height: 150px;
+                border-radius: 10px;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div style="background-color: green;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+        color: white;">
+            rightside
+        </div>
+        <div style="background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div class="modal">
+                <h3>Modal Title</h3>
+                This is modal<br><br>
+                <button>close</button>
+            </div>
+        </div>
+    </body>
+</html>
